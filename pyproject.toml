@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Gogoonbuntu <tmddud333@naver.com>"]
+description = ""
+name = "summonmagic-1"
+version = "0.1.0"
+[tool.poetry.dependencies]
+pyautogui = "^0.9.48"
+python = "^3.7"
+opencv-python = "^4.2"
+[tool.poetry.dev-dependencies]
